@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/bg.png?raw=true");
+    color: white;
+}
+.score{
+    text-align: center;
+    font-size: 70px;
+}
+#p1,#comp{
+    height: 450px;
+    width: 450px;
+    border: 2px solid #ffc434;
+    margin: 80px;
+}
+.game{
+    display: flex;
+    justify-content: center;
+}
+#p1-hand,#comp-hand{
+    height: 270px;
+    width: 200px;
+}
+h2{
+    text-align: center;
+}
+#btnbox{
+    display: flex;
+    justify-content: space-evenly;
+    /* visibility: visible; */
+}
+.btn{
+    cursor: pointer;
+}
+/* #paperhand,#rockhand,#scissorshand,#paperhandc,#rockhandc,#scissorshandc{
+    visibility: hidden;
+    position: absolute;s
+} */
+#won{
+    font-size: 50px;
+    align-items: center;
+    visibility: hidden;
+}
+#playagain{
+    visibility: hidden;
+    font-size: 40px;
+    background-color: #ffc434;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

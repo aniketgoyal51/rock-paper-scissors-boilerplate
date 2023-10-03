@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="gamestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <h1 class="score"><span id="p1s"></span>-<span id="p2s"></span></h1>
+    <div class="game">
+        <div id="p1">
+            <h2>You</h2>
+            <div id="p1-hand">
+                <!-- <img src='https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/paper-hand.png?raw=true' id="paperhand" height="300px">
+                <img src='https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/rock-hand.png?raw=true' id="rockhand" height="300px"> -->
+                <img src='./assets/scissors-hand.png' id="playerhand" height="300px">
+            </div>
+            <div id="btnbox">
+                <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/paper-logo.png?raw=true" alt="" id="paper" class="btn" height="80px">
+                <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/rock-logo.png?raw=true" alt="" id="rock" class="btn" height="80px">
+                <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/scissors-logo.png?raw=true" alt="" id="scissors" class="btn" height="80px">
+            </div>
+        </div>
+        <div id="vs">
+            <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/vs.png?raw=true" alt="" id="vslogo">
+        </div>
+        <div id="comp">
+            <h2>Comp</h2>
+            <div id="comp-hand">
+                <!-- <img src='https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/paper-hand.png?raw=true' id="paperhandc" height="300px">
+                <img src='https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/rock-hand.png?raw=true' id="rockhandc" height="300px">
+                <img src='https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/scissors-hand.png?raw=true' id="scissorshandc" height="300px"> -->
+                <img src='./assets/scissors-hand.png' id="comphand" height="300px">
+
+            </div>
+        </div>
+    </div>
+    <div class="scoreboard">
+        <h2 class="won" id="won">You <span id="wwon"></span> the game</h2>
+        <div class="button">
+            <button type="button" id="playagain">Play Again</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

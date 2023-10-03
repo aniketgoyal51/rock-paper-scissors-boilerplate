@@ -1,0 +1,30 @@
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/bg.png?raw=true");
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    color: rgb(90, 37, 192);
+    font-size: 50px;
+}
+.gameimg{
+    position: relative;
+    left: 200px;
+}
+.play{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    position: relative;
+    right: 230px;
+    bottom: 100px;
+    cursor: pointer;
+}
+h2{
+    margin-left: 30px ;
+}
